@@ -1,0 +1,6 @@
+name = input("Enter a name: ")
+age = int(input("Enter an age: "))
+food = input("Enter a food: ")
+place = input("Enter a place: ")
+hobby = input("Enter a hobby: ")
+print(name, "is", age, "years old and loves eating", food, "And lives at the", place, ". And they love to", hobby)
