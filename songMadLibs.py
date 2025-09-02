@@ -1,0 +1,11 @@
+name = input("Enter a name")
+
+print ("And if you ask them to, " +name+ "'s gonna buy you a mockingbird")
+print (name+ "'s will give you the world")
+print (name+ "'s will buy a diamond ring for you")
+print (name+ "'s will sing for you")
+print (name+ "'s will do anything for you to see you smile")
+print ("And if that mockingbird don't sing and that ring don't shine")
+print (name+ "'s will break that birdie's neck")
+print (name+ "'s will go back to the jeweler who sold it to ya")
+print ("And make him eat every carat, don't mess with " +name)
