@@ -31,12 +31,16 @@ print(exponent)
 
 #Activity 1 - Take two inputs, multiply them together and output answer
 
-age = input("Enter age: ")
-brainCapcityasInt = int("brainCapacity")
-brainCapacity = input("Enter brain capacity: ")
+age = float(input("Enter age: "))
+brainCapacityasInt = float(input("Enter Brain Capacity: "))
 print (age * brainCapacityasInt)
 
 
 #Activity 2 - Input user's age, output age times 7
+humanAge = int(input("Enter human age: "))
+print ("Cat age is ", humanAge * 7)
+
 
 #Activity 3 - Take radius as input, output volume of a sphere (V = 4/3 x pi x r^3)
+radius = float(input("Enter radius: "))
+print("Volume of sphere with radius ", radius, " is ", 4/3 * 3.14159 * radius ** 3)
