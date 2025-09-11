@@ -33,7 +33,8 @@ print(exponent)
 
 age = float(input("Enter age: "))
 brainCapacityasInt = float(input("Enter Brain Capacity: "))
-print (age * brainCapacityasInt)
+print (age *
+        brainCapacityasInt)
 
 
 #Activity 2 - Input user's age, output age times 7

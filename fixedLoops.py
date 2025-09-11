@@ -51,9 +51,15 @@
 # #Print the total ages
 #     print(total)
 
-#Question 10 - Write a Python program to output the 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12 times tables from 1 to 12. 
-for counter1 in range(1,13):
-    print ("")
-    print (counter1, " Times table")
-    for counter2 in range(1,13):
-        print(counter1, "x", counter2, " = ", counter1 * counter2)
+# Question 10 - Write a Python program to output the 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12 times tables from 1 to 12. 
+# for counter1 in range(1,13):
+#     print ("")
+#     print (counter1, " Times table")
+#     for counter2 in range(1,13):
+#         print(counter1, "x", counter2, " = ", counter1 * counter2)
+
+#Extension Activity
+timeTable = int(input("Enter a desired timetable"))
+howFar = int(input("How far?"))
+for counter in range(1, howFar+1):
+    print(counter*timeTable)
