@@ -38,7 +38,23 @@
 # #Question14
 # #Write a Python program to keep asking the user to input a password until it is longer than 5 characters 
 # Print "Password accepted" once the password is longer than 5 characters. 
-password = input("What is your password")
-passwordLen = len(password)
-while len(password) < 5:
-    password = input("AGAINNNN WHAT IS YOUR PASSWORD")
+# password = input("What is your password")
+# passwordLen = len(password)
+# while len(password) < 5:
+#     password = input("AGAINNNN WHAT IS YOUR PASSWORD")
+
+# #question 15
+# anotherEpisode = input("Would you like to watch another")
+# while anotherEpisode == "yes":
+#     print("Playing another")
+#     anotherEpisode = input("Would you like to watch another")
+
+# print("Good, go to bed")
+
+# #Question16
+# money = int(input("Give me money: "))
+# while int(money) < 100:
+#     money = money + int(input("Give me more money: "))
+
+# print("I accept your offer")
+# print("You gave me", money)
