@@ -89,10 +89,18 @@
 # else:
 #     print("Good job! Excellent harvest! :]")
 
-#Question 4
-age = int(input("Enter your age: "))
-driversLicense = input("Do you have a drivers license (True/False)")
-if age > 18 and driversLicense == "true":
-    print("You can drive! ;]")
+# #Question 4
+# age = int(input("Enter your age: "))
+# driversLicense = input("Do you have a drivers license (True/False)")
+# if age > 18 and driversLicense == "true":
+#     print("You can drive! ;]")
+# else: 
+#     print("You can't drive! Hands off the wheel! >:[")
+
+#Question 5
+speed = int(input("Enter your current driving speed: "))
+weather = input("What is the current weather? (Sunny/Rainy)")
+if speed > 60 or weather != "rainy":
+    print("(speed greater than 60)/(rainy)")
 else: 
-    print("You can't drive! Hands off the wheel! >:[")
+    print("bleh")
