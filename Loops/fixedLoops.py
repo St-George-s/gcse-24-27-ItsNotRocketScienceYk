@@ -59,7 +59,10 @@
 #         print(counter1, "x", counter2, " = ", counter1 * counter2)
 
 #Extension Activity
-timeTable = int(input("Enter a desired timetable"))
+
+timeTable = int(input("Enter a desired multiplication table"))
 howFar = int(input("How far?"))
-for counter in range(1, howFar+1):
-    print(counter*timeTable)
+for counter in range(1, howFar+1): #counter is the number of times the loop runs (increment)
+    print(timeTable, "x", counter, "=", counter*timeTable)
+
+# answer = input("would you like to enter another times table?")
