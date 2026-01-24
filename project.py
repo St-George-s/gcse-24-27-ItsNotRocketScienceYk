@@ -9,7 +9,7 @@ while len(password) < 8:
     password = input("Enter your password again: ")
 print("Password is valid")
 
-while ord(str(password)) >= 65 and ord(str(password)) <= 90:
+while ord(str (password)) >= 65 and ord(str(password)) <= 90:
     print("Password includes UPPERCASE :)")
 print("Password is invalid, try again.")
 
