@@ -19,12 +19,13 @@ while not valid:
     if len(password) >= 8 and lowercase > 0 and uppercase > 0:
         print("Password is valid.")
         valid = True
-        password = input("Re-enter new password to confirm: ")
-        if password == password:
+        Newpassword = input("Re-enter new password to confirm: ")
+        if Newpassword == password:
             print("Password confirmed.")
             print("Password has been reset :)")
         else:
             print("Passwords do not match.")
+            valid = False
     else:
         if len(password) < 8:
             print("Password is not long enough.")
@@ -39,9 +40,10 @@ for char in password:
     if (asciiVal >= 33 and asciiVal <= 47) or (asciiVal >= 58 and asciiVal <= 64) or (asciiVal >= 91 and asciiVal <= 96) and (asciiVal>= 123 and asciiVal <= 126):
         specialCharFound = True
 
-if specialCharFound and len(password) > 12:
-    print("Password is strong :)")
-elif specialCharFound or len(password) > 9:
-    print("Password is moderate :|")
-else:
-    print("Password is weak :(")
+while valid != False:
+    if specialCharFound and len(password) > 12:
+        print("Password is strong :)")
+    elif specialCharFound or len(password) > 9:
+        print("Password is moderate :|")
+    else:
+        print("Password is weak :(")
