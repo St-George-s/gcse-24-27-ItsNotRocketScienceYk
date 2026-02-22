@@ -14,7 +14,7 @@ while guess != number:
                 if char == charTwo:
                     if char not in alreadyGuessed:
                         alreadyGuessed.append(char)
-                        
+                         
                         print("Found a match")
                         print(char, " is in the word")
     guess = input("Enter a 4-digit guess: ")
