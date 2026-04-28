@@ -70,6 +70,20 @@
 # for i in range(age):
 #     print("happy birthday)
 
-x = int("123")
-y=x*10
-print(x)
+# x = int("123")
+# y=x*10
+# print(x)
+
+def readfile(filename):
+    with open(filename, "r") as file:
+        for line in file:
+            print(line)
+
+readfile("example.txt")
+
+# primekoalas = [["john", "guitar"], ["paul", "bass"], ["cheryl", "vocals"], ["ida", "drum"]]
+
+# with open("musician.txt", "w")as f:
+#     for i in range (4):
+#         musician = primekoalas[i]
+#         f.write("\n" + musician[0] + " " + musician[1])
