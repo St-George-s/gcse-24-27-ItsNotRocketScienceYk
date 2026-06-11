@@ -24,3 +24,22 @@
 #Developer can code subprograms independantly
 #make code more readable
 #eaier to spot errors in tha program
+
+# #Question 4 - writing a function
+# def sphere_volume(radius):
+#     volume = 4/3 * 3.14159 * radius**2
+#     return volume
+
+# #print(sphere_volume(5.0))
+
+# volume = sphere_volume(5)
+# print(volume)
+# #question 5 - calling the function 
+
+#Question 6 - Linear Search
+
+# def linear_search(data_list, target):
+#     for data_list in data_list:
+#         if data_list == target:
+#             return True
+#     return False
